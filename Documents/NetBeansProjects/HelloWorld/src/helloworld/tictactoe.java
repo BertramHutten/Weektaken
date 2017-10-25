@@ -2,27 +2,7 @@
 
 package helloworld;
 
-/**
- *
- * 
- * @author Martijn van der Bruggen (Martijn.vanderBruggen@han.nl)
- * @version alpha - logica ontbreekt 
- * 
- * (c) 2006-2015 Hogeschool van Arnhem en Nijmegen
- *
- * Tic Tac Toe 4 BioInformatics - Afvinkopdracht 4 Creation date: 9 December
- * 2006 MvdB: 4 December 2007 - added usage of arrays and iteration MvdB: 20
- * November 2008 - added search for image path - rewrite of Message method MvdB:
- * 2 December 2009 - added additional header info panel MvdB: 24 November 2010 -
- * added additional comments MvdB: 7 december 2012 - correction image reference
- * MvdB: 19 september 2013 - renamed course reference and minor updates MvdB: 29
- * september 2015 - resized frame and some minor updates
- *
- * Onvolledige versie, implementatie van if-then-else en loops is vereist Neem
- * de bijbehorende images op in dezelfde directory als de gecompileerde classes,
- * dan zal het programma ze zelf vinden.
- *
- */
+
 
 
 import java.awt.*;
@@ -180,7 +160,7 @@ public class tictactoe extends JFrame implements ActionListener {
         
         if((m%2) == 0) {
         ((JButton)buttonPressed).setIcon(kruisje);
-        message("Rondje mag");
+        message("Rondje mag ");
         ((JButton)buttonPressed).setEnabled(false); 
         }
         if ((m%2) == 1) {
